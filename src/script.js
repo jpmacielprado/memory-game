@@ -22,7 +22,7 @@
 
   function endGame(won) {
     setTimeout(() => {
-      alert(won ? "🎉 Você venceu!" : "⏰ Tempo esgotado!");
+      alert(won ? "🎉 You won!" : "⏰ Time's up!");
       location.reload(); // reinicia o jogo
     }, 500);
   }
