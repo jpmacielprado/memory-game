@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- Link do Google Fonts Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="wrapper">  
+        <div class="timer" id="timer">Tempo: 60s</div> 
+        <ul class="cards">
+            <li class="card" data-card="cat">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/cat-solid.svg" alt="cat">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="otter">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/otter-solid.svg" alt="otter">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="hippo">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/hippo-solid.svg" alt="hippo">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="dragon">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/dragon-solid.svg" alt="dragon">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="dog">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/dog-solid (1).svg" alt="dog">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="crow">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/crow-solid.svg" alt="crow">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="frog">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/frog-solid.svg" alt="frog">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="horse">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/horse-solid.svg" alt="horse">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="cat">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/cat-solid.svg" alt="cat">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="otter">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/otter-solid.svg" alt="otter">
+                    </div>
+                </div>
+            </li>
+                
+            <li class="card" data-card="hippo">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/hippo-solid.svg" alt="hippo">
+                    </div>
+                </div>
+            </li>
+                
+            <li class="card" data-card="dragon">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/dragon-solid.svg" alt="dragon">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="dog">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/dog-solid (1).svg" alt="dog">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="crow">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/crow-solid.svg" alt="crow">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="frog">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/frog-solid.svg" alt="frog">
+                    </div>
+                </div>
+            </li>
+
+            <li class="card" data-card="horse">
+                <div class="card-inner">
+                    <div class="view view-frente">
+                        <span class="material-icons">question_mark</span>
+                    </div>
+                    <div class="view view-costas">
+                        <img src="./ANIMAIS/horse-solid.svg" alt="horse">
+                    </div>
+                </div>
+            </li>
+           
+        </ul>
+    </div>
+    
+
+    <script src="./src/script.js"></script> 
+</body>
+</html>
