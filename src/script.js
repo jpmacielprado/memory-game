@@ -11,7 +11,7 @@
   function startTimer() {
     timer = setInterval(() => {
       timeLeft--;
-      timerElement.textContent = `Tempo: ${timeLeft}s`;
+      timerElement.textContent = `Time: ${timeLeft}s`;
 
       if (timeLeft <= 0) {
         clearInterval(timer);
