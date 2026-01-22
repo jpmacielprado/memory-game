@@ -13,4 +13,6 @@
 ### Description:
 Another project using JavaScript.
 
-
+<video src="https://github.com/user-attachments/assets/fb1e6afc-5a51-4ee3-9b6c-e2377b0ecf17" controls loop muted style="max-width: 100%;">
+  Seu navegador não suporta vídeos incorporados.
+</video>
